@@ -11,7 +11,7 @@ from PIL import Image
 
 # --- Configuration ---
 # --- Hardcoded Google Vision API Key ---
-GOOGLE_VISION_API_KEY = "AIzaSyDGS_ijen0UrPw4V_kPLZDLzdMn_hj341k"  # 🔒 replace with your real key
+GOOGLE_VISION_API_KEY = "Replace with your own key"  # 🔒 replace with your real key
 GOOGLE_VISION_URL = f"https://vision.googleapis.com/v1/images:annotate?key={GOOGLE_VISION_API_KEY}"
 
 
@@ -286,3 +286,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
